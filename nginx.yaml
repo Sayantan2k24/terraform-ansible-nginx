@@ -1,0 +1,13 @@
+---
+- name: Install and configure Nginx
+  hosts: all
+  tasks:
+    - name: Ensure Nginx 1.12 is installed
+      ansible.builtin.command: "sudo amazon-linux-extras install nginx1.12 -y"
+
+    - name: Make sure Nginx is running
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
