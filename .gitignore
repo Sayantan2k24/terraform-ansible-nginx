@@ -1,7 +1,7 @@
 *.tfvars
 id_rsa
 id_rsa.pub
-
+.terraform.lock.hcl
 # Local .terraform directories
 **/.terraform/*
 
