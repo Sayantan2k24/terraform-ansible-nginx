@@ -1,6 +1,6 @@
 *.tfvars
-./id_rsa
-./id_rsa.pub
+id_rsa
+id_rsa.pub
 
 # Local .terraform directories
 **/.terraform/*
